@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_inicio__login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/IL_Titulo"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimaryBlack"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/IL_Descripcion"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryBlack"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="50dp">
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="@string/IL_Mail"
+            />
+        <EditText
+            android:id="@+id/IL_Mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/IL_Mail_hint"
+            android:maxLines="1"
+            android:typeface="monospace"
+            android:inputType="textEmailAddress"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="50dp">
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="@string/IL_Clave"
+            />
+        <EditText
+            android:id="@+id/IL_Clave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/IL_Clave_hint"
+            android:maxLines="1"
+            android:inputType="textPassword"/>
+
+    </LinearLayout>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/IL_Remember"
+        android:text="@string/IL_Recordarme"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <Button
+            android:id="@+id/IL_LogIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/IL_Ingresar"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>

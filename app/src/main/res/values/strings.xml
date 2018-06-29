@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">2° Parcial</string>
+    <string name="nombre">nombre</string>
+    <string name="apellido">apellido</string>
+    <string name="telefono">4444-4444</string>
+
+    <string name="RU_Titilo">Registro de Usuario</string>
+    <string name="RU_Descripcion">Esta es la pantalla de registro.\n Por favor ingrese datos verdaderos.</string>
+    <string name="RU_Mail">Mail</string>
+    <string name="RU_Mail_hint">E_Mail</string>
+    <string name="RU_Nombre">Name</string>
+    <string name="RU_Nombre_hint">Firs Name</string>
+    <string name="RU_Apellido">Last Name</string>
+    <string name="RU_Apellido_hint">Last Name </string>
+    <string name="RU_Dni">DNI</string>
+    <string name="RU_Dni_hint">DNI</string>
+    <string name="RU_Clave">Password</string>
+    <string name="RU_Clave_hint">Password</string>
+    <string name="RU_Reingrese">Password</string>
+    <string name="RU_Reingrese_hint">Password</string>
+    <string name="RU_Registrarme">Register</string>
+
+    <string name="IL_Titulo">Inicio / Log-In</string>
+    <string name="IL_Descripcion">Bienvenidos</string>
+    <string name="IL_Mail">Mail</string>
+    <string name="IL_Mail_hint">Mail</string>
+    <string name="IL_Clave">Password</string>
+    <string name="IL_Clave_hint">Password</string>
+    <string name="IL_Recordarme">Remamber me</string>
+    <string name="IL_Ingresar">Log-in</string>
+    <string name="IL_Registarme">Register</string>
+
+    <string name="Menu_Titulo">Pidiendo...</string>
+    <string name="Menu_EnviarPedido">Ver Pedido</string>
+    <string name="Menu_ImporteEstimado">Imp. Estimado</string>
+    <string name="Menu_ElementosSelecionados">Items Seleccionados</string>
+    <string name="Menu_Tab1">Café / Bebidas</string>
+    <string name="Menu_Tab2">Menu Principal</string>
+    <string name="Menu_Tab3">Snaks</string>
+
+    <string name="Pedido_Titulo">Mi Pedido</string>
+    <string name="Pedido_ImporteEstimado">Importe total:</string>
+    <string name="Pedido_Unidades_Totales">Total de unidades:</string>
+    <string name="Pedido_EnviarPedido">Enviar Pedido</string>
+
+    <string name="MS_VerPedido">Ver Pedido</string>
+    <string name="MS_EnviarPedido">Enviar Pedido</string>
+    <string name="MS_LimpiarPedido">Limpiar Pedido</string>
+    <string name="MS_CerrarSesion">Cerrar Sesion</string>
+    <string name="MS_Salir">Salir</string>
+
+    <string name="IT_descripcion">Un Saludo</string>
+    <string name="IT_Precio">$ 0.15</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
